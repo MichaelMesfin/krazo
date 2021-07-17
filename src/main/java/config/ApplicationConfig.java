@@ -1,6 +1,7 @@
 package config;
 
 
+import ws.BankController;
 import ws.BookController;
 
 import javax.ws.rs.ApplicationPath;
@@ -16,6 +17,7 @@ public class ApplicationConfig extends Application {
 
         Set<Class<?>> resources = new HashSet<>();
         resources.add(BookController.class);
+        resources.add(BankController.class);
         return resources;
     }
 }

@@ -28,6 +28,8 @@ The book that was loaded in BookController: ${bookContainer.book.title}
 </c:if>
 <br/>
 
+<%--<div>${bookContainer.bookList[2].title}</div>--%>
+
 <table class="table table-striped">
     <colgroup>
         <col style="width: 80%;"/>
